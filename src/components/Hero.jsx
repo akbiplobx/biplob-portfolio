@@ -20,7 +20,7 @@ const Hero = () => {
 
   return (
     <section className="bg-[#0a0a1a] text-white  px-5 md:px-10 lg:px-20 min-h-[90vh] flex items-center">
-      <div className="max-w-8xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-10 items-center just">
+      <div className="max-w-8xl py-5 mx-auto grid grid-cols-1 md:grid-cols-12 gap-10 items-center just">
         
         {/* বাম দিকের কন্টেন্ট সেকশন (Text and Button) */}
         <div className="md:col-span-6 space-y-5">
