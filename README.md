@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🌐 Biplob Portfolio
 
-## Getting Started
+Welcome to my personal portfolio website!  
+This portfolio represents my journey as a **Web Developer**, showcasing my skills, projects, and experience in modern web development.
 
-First, run the development server:
+## 🚀 Live Website
+🔗 Live Link: https://biplob-portfolio-gold.vercel.app/
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 👨‍💻 About Me
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Hi, I'm **A K Biplob** — a passionate Web Developer focused on creating clean, responsive, and user-friendly web applications using modern technologies.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+I enjoy building real-world projects, learning new technologies, and improving my development skills every day.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠️ Technologies Used
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Frontend
+- HTML5
+- CSS3
+- JavaScript (ES6+)
+- React.js
+- Next.js
+- Tailwind CSS
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Backend & Database
+- Node.js
+- Express.js
+- MongoDB
 
-## Deploy on Vercel
+### Tools & Platforms
+- Git & GitHub
+- Vercel
+- VS Code
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## ✨ Features
+
+- Responsive modern portfolio design
+- Smooth and clean UI
+- Projects showcase section
+- Skills and experience section
+- Resume download option
+- Contact section for easy communication
+- Optimized for desktop and mobile devices
+
+---
+
+## 📂 Project Structure
+
+```text
+├── components/    # Reusable UI components
+├── app/           # Next.js app router pages
+├── public/        # Static assets
+├── styles/        # Global styles
+├── lib/           # Utility/helper functions
+└── README.md
