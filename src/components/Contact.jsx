@@ -37,7 +37,7 @@ const Contact = () => {
           {contactDetails.map((item, index) => (
             <div 
               key={index} 
-              className="bg-[#161625] p-12 rounded-[2rem] border border-gray-800 hover:border-green-500 transition-all group flex flex-col items-center shadow-2xl"
+              className="bg-[#161625] p-7 rounded-[2rem] border border-gray-800 hover:border-green-500 transition-all group flex flex-col items-center shadow-2xl"
             >
               <div className="mb-8">{item.icon}</div>
               <h3 className="text-2xl font-black mb-3 tracking-tight">

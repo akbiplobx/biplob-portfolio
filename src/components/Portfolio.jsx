@@ -41,10 +41,10 @@ const Portfolio = () => {
           {projects.map((project, index) => (
             <div 
               key={index} 
-              className="bg-[#161625] p-6 rounded-[2rem] border border-gray-800 hover:border-green-500 transition-all group shadow-2xl"
+              className="bg-[#161625] p-5 rounded-[2rem] border border-gray-800 hover:border-green-500 transition-all group shadow-2xl"
             >
               {/* Image Container */}
-              <div className="relative h-60 w-full mb-6 overflow-hidden rounded-2xl border border-gray-700">
+              <div className="relative h-50 w-full mb-6 overflow-hidden rounded-2xl border border-gray-700">
                 <Image 
                   src={project.image} 
                   alt={project.title}
@@ -54,15 +54,15 @@ const Portfolio = () => {
               </div>
 
               {/* Text Content */}
-              <div className="text-center space-y-3">
-                <p className="text-[#FFA600] text-sm uppercase">
+              <div className="text-center space-y-1">
+                <p className="text-[#FFA600] font-bold uppercase">
                   {project.category}
                 </p>
                 <h3 className="text-xl font-black tracking-tight ">
                   {project.title}
                 </h3>
                 
-                <div className="pt-4 flex justify-center">
+                <div className="pt-2 flex justify-center">
                   <a 
                     href={project.link} 
                     className="flex items-center gap-2 font-bold text-sm bg-transparent border border-gray-700 px-6 py-2 rounded-full hover:bg-green-600 hover:border-green-600 transition-all"

@@ -7,49 +7,39 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    // ডার্ক ব্যাকগ্রাউন্ড (ইমেজের মতো)
-    <div className="bg-[#0a0a1a] px-5 sticky top-0 z-50 border-b border-gray-800">
-      <nav className="flex justify-between items-center py-3 max-w-7xl mx-auto w-full">
+    // মেইন র‍্যাপার যা পুরো স্ক্রিন জুড়ে বর্ডার এবং ব্যাকগ্রাউন্ড রাখবে
+    <div className="bg-[#0a0a1a] sticky top-0 z-[100] border-b border-gray-900 w-full">
+      
+      {/* গুরুত্বপূর্ণ: max-w-7xl এবং px ভ্যালুগুলো আপনার Hero সেকশন বা layout.js এর সাথে হুবহু মিলতে হবে।
+      */}
+      <nav className="max-w-7xl mx-auto px-5 md:px-10 lg:px-16 flex justify-between items-center py-4">
         
-        {/* Logo - Public ফোল্ডার থেকে image নিবে */}
+        {/* Logo - হিরো সেকশনের বাম পাশের টেক্সট বরাবর থাকবে */}
         <Link href="/" className="flex items-center">
           <Image 
-            src="/logo.png" // আপনার লোগোটি public/logo.png নামে সেভ করুন
+            src="/logo.png" 
             alt="Logo" 
             width={45} 
             height={45} 
-            className="rounded-full shadow-lg shadow-green-500/20"
+            className="rounded-full shadow-lg shadow-[#FFA600]/20"
           />
         </Link>
 
-        {/* Desktop Links - ইমেজের মতো ফন্ট এবং স্টাইল */}
-        <ul className="hidden md:flex items-center gap-8 text-[13px] font-black uppercase tracking-wider text-white">
-          <li>
-            <Link href="/" className="text-[#FFA600] transition-colors">Home</Link>
-          </li>
-          <li>
-            <Link href="/about" className="hover:text-[#FFA600] transition-colors">About</Link>
-          </li>
-          <li>
-            <Link href="/portfolioall" className="hover:text-[#FFA600] transition-colors">Portfolio</Link>
-          </li>
-          <li>
-            <Link href="/resume" className="hover:text-[#FFA600] transition-colors">Resume</Link>
-          </li>
-          <li>
-            <Link href="/ContactPage" className="hover:text-[#FFA600] transition-colors">Contact</Link>
-          </li>
-          <li>
-            <Link href="https://akbiplob.com/wp-content/uploads/2025/11/A-K-Biplob-CV.pdf" target="_blank" className="hover:text-[#FFA600] transition-colors">CV</Link>
-          </li>
+        {/* Desktop Links */}
+        <ul className="hidden md:flex items-center gap-10 text-[15px] font-black  tracking-wider text-white">
+          <li><Link href="/" className="text-[#FFA600] transition-colors">Home</Link></li>
+          <li><Link href="/about" className="hover:text-[#FFA600] transition-colors">About</Link></li>
+          <li><Link href="/portfolioall" className="hover:text-[#FFA600] transition-colors">Portfolio</Link></li>
+          <li><Link href="/resume" className="hover:text-[#FFA600] transition-colors">Resume</Link></li>
+          <li><Link href="/ContactPage" className="hover:text-[#FFA600] transition-colors">Contact</Link></li>
         </ul>
 
-        
+        {/* Action Button - হিরো সেকশনের ডান পাশের সোশ্যাল আইকন বরাবর থাকবে */}
         <div className="hidden md:flex items-center">
           <Link 
             href="https://wa.me/8801627205530" 
             target="_blank"
-            className="px-6 py-2 text-sm font-bold text-white bg-[#FFA600] rounded rounded-r-sm hover:bg-green-600 transition-all flex items-center gap-2"
+            className="px-8 py-2.5 text-sm font-black text-black bg-[#FFA600] rounded-sm hover:bg-[#e69500] transition-all uppercase tracking-tighter"
           >
             Whatsapp
           </Link>
@@ -57,16 +47,16 @@ const Navbar = () => {
 
         {/* Mobile Menu Button */}
         <button 
-          className="md:hidden text-white focus:outline-none"
+          className="md:hidden text-[#FFA600] focus:outline-none"
           onClick={() => setIsOpen(!isOpen)}
         >
           {isOpen ? (
-            <span className="text-3xl">&times;</span>
+            <span className="text-4xl leading-none">&times;</span>
           ) : (
             <div className="space-y-1.5">
-              <span className="block w-6 h-0.5 bg-white"></span>
-              <span className="block w-6 h-0.5 bg-white"></span>
-              <span className="block w-6 h-0.5 bg-white"></span>
+              <span className="block w-7 h-0.5 bg-[#FFA600]"></span>
+              <span className="block w-7 h-0.5 bg-[#FFA600]"></span>
+              <span className="block w-7 h-0.5 bg-[#FFA600]"></span>
             </div>
           )}
         </button>
@@ -74,21 +64,23 @@ const Navbar = () => {
 
       {/* Mobile Menu Overlay */}
       <div className={`
-        fixed inset-x-0 top-[65px] p-6 bg-[#0a0a1a] border-b border-gray-800 transition-all duration-300 md:hidden
-        ${isOpen ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-5 pointer-events-none"}
+        fixed inset-x-0 top-[70px] p-8 bg-[#0a0a1a] border-b border-gray-900 transition-all duration-300 md:hidden z-[110]
+        ${isOpen ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-10 pointer-events-none"}
       `}>
-        <ul className="flex flex-col gap-5 text-sm font-bold uppercase text-white">
-          <li><Link onClick={() => setIsOpen(false)} href="/">Home</Link></li>
-          <li><Link onClick={() => setIsOpen(false)} href="#about">About</Link></li>
-          <li><Link onClick={() => setIsOpen(false)} href="#portfolio">Portfolio</Link></li>
-          <li><Link onClick={() => setIsOpen(false)} href="#contact">Contact</Link></li>
-          <Link 
-            href="https://wa.me/8801627205530" 
-            target="_blank"
-            className="w-fit px-6 py-2 bg-[#FFA600] text-white rounded-full text-center"
-          >
-            Whatsapp
-          </Link>
+        <ul className="flex flex-col gap-6 text-sm font-black uppercase text-white px-5">
+          <li><Link onClick={() => setIsOpen(false)} href="/" className="hover:text-[#FFA600]">Home</Link></li>
+          <li><Link onClick={() => setIsOpen(false)} href="/about" className="hover:text-[#FFA600]">About</Link></li>
+          <li><Link onClick={() => setIsOpen(false)} href="/portfolioall" className="hover:text-[#FFA600]">Portfolio</Link></li>
+          <li><Link onClick={() => setIsOpen(false)} href="/ContactPage" className="hover:text-[#FFA600]">Contact</Link></li>
+          <li>
+             <Link 
+              href="https://wa.me/8801627205530" 
+              target="_blank"
+              className="inline-block w-full py-3 bg-[#FFA600] text-black font-black text-center rounded-sm uppercase mt-4"
+            >
+              Whatsapp
+            </Link>
+          </li>
         </ul>
       </div>
     </div>

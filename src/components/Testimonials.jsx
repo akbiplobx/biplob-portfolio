@@ -37,16 +37,16 @@ const Testimonials = () => {
           {reviews.map((item, index) => (
             <div 
               key={index} 
-              className="bg-[#161625] p-10 rounded-[2.5rem] border border-gray-800 flex flex-col items-center text-center shadow-xl hover:border-green-500 transition-all group"
+              className="bg-[#161625] p-5 rounded-[2.5rem] border border-gray-800 flex flex-col items-center text-center shadow-xl hover:border-green-500 transition-all group"
             >
               {/* Review Text */}
-              <p className="text-gray-300 italic leading-relaxed mb-10 text-[15px]">
+              <p className="text-gray-300 italic leading-relaxed mb-5 text-[15px]">
                 "{item.review}"
               </p>
 
               {/* Client Info */}
-              <div className="mt-auto">
-                <div className="relative w-20 h-20 mx-auto mb-4 overflow-hidden rounded-full border-2 border-green-500">
+              <div className="">
+                <div className="relative w-20 h-20 mx-auto  overflow-hidden rounded-full border-2 border-green-500">
                   <Image 
                     src={item.image} 
                     alt={item.name}
