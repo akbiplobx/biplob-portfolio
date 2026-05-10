@@ -27,7 +27,7 @@ const Hero = () => {
             <p className="text-[13px] font-black uppercase tracking-[0.2em] text-gray-400">
               HELLO, MY NAME IS
             </p>
-            <h1 className="text-5xl md:text-7xl font-black tracking-tighter leading-none">
+            <h1 className="text-5xl md:text-6xl font-black tracking-tighter leading-none">
               A K Biplob
             </h1>
             <p className="text-2xl font-black text-[#FFA600]">

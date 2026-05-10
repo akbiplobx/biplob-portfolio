@@ -23,11 +23,11 @@ const PortfolioAll = () => {
   ];
 
   return (
-    <section id="portfolio" className="bg-[#0a0a1a] py-20 px-5 font-roboto">
+    <section id="portfolio" className="bg-[#0a0a1a] py-10 px-5 font-roboto">
       <div className="max-w-7xl mx-auto">
         {/* Title Section */}
-        <div className="text-center mb-16">
-          <h2 className="text-[#FFA600] text-5xl font-black uppercase tracking-tighter mb-4">Portfolio</h2>
+        <div className="text-center mb-5">
+          <h2 className="text-[#FFA600] text-4xl font-black uppercase tracking-tighter mb-4">Portfolio</h2>
           <div className="flex items-center justify-center gap-3">
             <p className="text-white text-lg font-bold">
               A K Biplob – Explore My Live Websites Built with HTML, CSS & JavaScript

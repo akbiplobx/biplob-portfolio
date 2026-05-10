@@ -17,11 +17,11 @@ const Navbar = () => {
         {/* Logo - হিরো সেকশনের বাম পাশের টেক্সট বরাবর থাকবে */}
         <Link href="/" className="flex items-center">
           <Image 
-            src="/logo.png" 
+            src="/logo2.png" 
             alt="Logo" 
-            width={45} 
-            height={45} 
-            className="rounded-full shadow-lg shadow-[#FFA600]/20"
+            width={95} 
+            height={95} 
+           
           />
         </Link>
 

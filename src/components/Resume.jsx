@@ -25,11 +25,11 @@ const Resume = () => {
   ];
 
   return (
-    <section id="resume" className="bg-[#0a0a1a] py-20 px-5 font-roboto">
+    <section id="resume" className="bg-[#0a0a1a] py-10 px-5 font-roboto">
       <div className="max-w-5xl mx-auto">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <h2 className="text-[#FFA600] text-4xl md:text-5xl font-black uppercase tracking-tighter mb-4">
+          <h2 className="text-[#FFA600] text-3xl md:text-4xl font-black uppercase tracking-tighter mb-4">
             Resume
           </h2>
           <div className="h-1.5 w-24 bg-[#FFA600] mx-auto rounded-full"></div>
