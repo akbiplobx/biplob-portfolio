@@ -6,17 +6,17 @@ const Contact = () => {
     {
       title: "A K Biplob",
       subtitle: "Web Developer | WordPress Expert",
-      icon: <FaUserAlt className="text-[#00FF00] text-5xl" />,
+      icon: <FaUserAlt className="text-[#FFA600] text-5xl" />,
     },
     {
       title: "Freelance",
       subtitle: "Available Right Now",
-      icon: <FaClock className="text-[#00FF00] text-5xl" />,
+      icon: <FaClock className="text-[#FFA600] text-5xl" />,
     },
     {
       title: "Email",
       subtitle: "akbiplob24@gmail.com",
-      icon: <FaEnvelope className="text-[#00FF00] text-5xl" />,
+      icon: <FaEnvelope className="text-[#FFA600] text-5xl" />,
       isEmail: true
     }
   ];
@@ -26,8 +26,8 @@ const Contact = () => {
       <div className="max-w-7xl mx-auto">
         {/* Section Title */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-black uppercase tracking-tighter mb-4">CONTACT</h2>
-          <p className="text-[#00FF00] font-bold text-lg md:text-xl flex items-center justify-center gap-2">
+          <h2 className="text-4xl font-black uppercase tracking-tighter mb-4 ">CONTACT</h2>
+          <p className="text-[#FFA600] font-bold text-lg md:text-xl flex items-center justify-center gap-2">
             Are You Looking For Your Business Online Presence? A K Biplob here. 😊
           </p>
         </div>

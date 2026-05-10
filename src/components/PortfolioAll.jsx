@@ -27,12 +27,12 @@ const PortfolioAll = () => {
       <div className="max-w-7xl mx-auto">
         {/* Title Section */}
         <div className="text-center mb-16">
-          <h2 className="text-[#00FF00] text-5xl font-black uppercase tracking-tighter mb-4">Portfolio</h2>
+          <h2 className="text-[#FFA600] text-5xl font-black uppercase tracking-tighter mb-4">Portfolio</h2>
           <div className="flex items-center justify-center gap-3">
             <p className="text-white text-lg font-bold">
               A K Biplob – Explore My Live Websites Built with HTML, CSS & JavaScript
             </p>
-            <Link href="https://github.com/akbiplobx" target="_blank" className="text-[#00FF00] text-3xl">
+            <Link href="https://github.com/akbiplobx" target="_blank" className="text-[#FFA600] text-3xl">
               <FaGithub />
             </Link>
           </div>
@@ -53,7 +53,7 @@ const PortfolioAll = () => {
               </div>
               {/* Text Info */}
               <div className="mt-4">
-                <h4 className="text-[#00FF00] font-bold text-lg leading-tight">
+                <h4 className="text-[#FFA600] font-bold text-lg leading-tight">
                   {project.id}. {project.title}
                 </h4>
                 <p className="text-green-400 font-medium text-md mt-1">
@@ -66,10 +66,10 @@ const PortfolioAll = () => {
 
         {/* Footer Info */}
         <div className="flex justify-between items-center border-t border-gray-900 pt-8">
-          <Link href="/about" className="text-[#00FF00] font-bold hover:underline">
+          <Link href="/about" className="text-[#FFA600] font-bold hover:underline">
             For More Info Check About Section
           </Link>
-          <Link href="https://github.com/akbiplobx" target="_blank" className="text-[#00FF00] text-2xl">
+          <Link href="https://github.com/akbiplobx" target="_blank" className="text-[#FFA600] text-2xl">
             <FaGithub />
           </Link>
         </div>

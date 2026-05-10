@@ -29,7 +29,7 @@ const Testimonials = () => {
         {/* Section Title */}
         <div className="text-center mb-16">
           <h2 className="text-4xl font-black uppercase tracking-tighter mb-2">TESTIMONIALS</h2>
-          <p className="text-[#00FF00] font-bold text-lg">What my Clients are saying?</p>
+          <p className="text-[#FFA600] font-bold text-lg">What my Clients are saying?</p>
         </div>
 
         {/* Testimonials Grid */}
@@ -54,7 +54,7 @@ const Testimonials = () => {
                     className="object-cover"
                   />
                 </div>
-                <h4 className="text-[#00FF00] font-bold text-lg tracking-tight">
+                <h4 className="text-[#FFA600] font-bold text-lg tracking-tight">
                   {item.name}
                 </h4>
                 <p className="text-white font-medium text-sm mt-1 uppercase">

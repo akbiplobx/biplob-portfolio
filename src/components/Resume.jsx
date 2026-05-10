@@ -29,10 +29,10 @@ const Resume = () => {
       <div className="max-w-5xl mx-auto">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <h2 className="text-[#00FF00] text-4xl md:text-5xl font-black uppercase tracking-tighter mb-4">
+          <h2 className="text-[#FFA600] text-4xl md:text-5xl font-black uppercase tracking-tighter mb-4">
             Resume
           </h2>
-          <div className="h-1.5 w-24 bg-[#00FF00] mx-auto rounded-full"></div>
+          <div className="h-1.5 w-24 bg-[#FFA600] mx-auto rounded-full"></div>
         </div>
 
         {/* Experience List */}
@@ -44,16 +44,16 @@ const Resume = () => {
             >
               {/* Icon Container */}
               <div className="bg-[#0a0a1a] p-5 rounded-2xl border border-gray-800 group-hover:border-green-500 transition-colors">
-                <FaLaptopCode className="text-[#00FF00] text-5xl md:text-6xl" />
+                <FaLaptopCode className="text-[#FFA600] text-5xl md:text-6xl" />
               </div>
 
               {/* Content */}
               <div className="flex-1">
-                <span className="text-[#00FF00] font-bold text-sm tracking-widest uppercase">
+                <span className="text-[#FFA600] font-bold text-sm tracking-widest uppercase">
                   {item.year}
                 </span>
                 <h3 className="text-white text-2xl font-black mt-1 mb-3 tracking-tight">
-                  <Link href={item.profileLink} target="_blank" className="hover:text-green-500 transition-colors">
+                  <Link href={item.profileLink} target="_blank" className="hover:text-[#FFA600] transition-colors">
                     {item.platform}
                   </Link>
                 </h3>
@@ -64,7 +64,7 @@ const Resume = () => {
                       {i !== arr.length - 1 && (
                         <>
                           {"Here Is My "}
-                          <Link href={item.profileLink} target="_blank" className="text-[#00FF00] hover:underline font-bold">
+                          <Link href={item.profileLink} target="_blank" className="text-[#FFA600] hover:underline font-bold">
                              {item.platform.split('.')[1]}
                           </Link>
                         </>

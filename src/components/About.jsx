@@ -16,7 +16,7 @@ const About = () => {
             {/* Actual Image */}
             <div className="relative z-10 w-full h-full overflow-hidden rounded-[2.5rem] border-4 border-[#161625]">
               <Image 
-                src="/profile.png" // public ফোল্ডারে আপনার ছবিটি রাখুন
+                src="/A_K_Biplob.jpg" // public ফোল্ডারে আপনার ছবিটি রাখুন
                 alt="A K Biplob"
                 fill
                 className="object-cover"
@@ -27,14 +27,14 @@ const About = () => {
 
         {/* Right Side: Content */}
         <div className="flex-1 text-center md:text-left">
-          <h2 className="text-[#00FF00] text-5xl md:text-6xl font-black uppercase tracking-tighter mb-6">
+          <h2 className="text-[#FFA600] text-5xl md:text-6xl font-black uppercase tracking-tighter mb-6">
             About Me
           </h2>
           
           <div className="space-y-5 text-gray-300 text-lg leading-relaxed">
             <p>
               My Name is <span className="text-white font-bold">A K Biplob</span>. I am a 
-              <span className="text-[#00FF00] font-bold"> WordPress Web Developer </span> 
+              <span className="text-[#FFA600] font-bold"> WordPress Web Developer </span> 
               With 5+ Years of Experience in Developing and Maintaining Websites.
             </p>
             <p>
@@ -50,13 +50,13 @@ const About = () => {
           <div className="mt-10 flex flex-wrap justify-center md:justify-start gap-4">
             <Link 
               href="https://akbiplob.com/wp-content/uploads/2025/11/A-K-Biplob-CV.pdf" target="_blank" 
-              className="px-8 py-3 bg-[#00FF00] text-black font-black uppercase rounded-lg hover:bg-green-400 transition-all shadow-lg shadow-green-500/20"
+              className="px-8 py-3 bg-[#FFA600] text-black font-black uppercase rounded-lg hover:bg-green-600 "
             >
               View My CV
             </Link>
             <Link 
               href="#contact" 
-              className="px-8 py-3 border-2 border-[#00FF00] text-[#00FF00] font-black uppercase rounded-lg hover:bg-[#00FF00] hover:text-black transition-all"
+              className="px-8 py-3 border-2 border-[#FFA600] text-[#FFA600] font-black uppercase rounded-lg hover:bg-[#FFA600] hover:text-black transition-all"
             >
               Hire Me
             </Link>

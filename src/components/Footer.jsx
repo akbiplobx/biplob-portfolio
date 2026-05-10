@@ -80,14 +80,14 @@ const Footer = () => {
         {/* Copyright Text */}
         <div className="text-gray-400 text-sm font-medium tracking-wide">
           Copyright © {new Date().getFullYear()} | 
-          <span className="text-green-500 font-bold ml-1">A K Biplob</span> 
+          <span className="text-[#FFA600] font-bold ml-1">A K Biplob</span> 
           <span className="ml-1">(Google Map)</span>
         </div>
 
         {/* Scroll to Top Button */}
         <button 
           onClick={scrollToTop}
-          className="bg-green-600 text-white p-3 rounded-md hover:bg-green-500 transition-colors shadow-lg shadow-green-900/20"
+          className="bg-[#FFA600] text-white p-3 rounded-md hover:bg-green-500 transition-colors shadow-lg shadow-green-900/20"
         >
           <FaChevronUp />
         </button>

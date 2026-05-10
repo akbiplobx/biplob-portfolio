@@ -25,13 +25,13 @@ const Education = () => {
           
           {/* Left Side: Education (Span 5) */}
           <div className="lg:col-span-5 bg-[#161625] p-10 rounded-[2rem] border border-gray-800 shadow-2xl">
-            <h2 className="text-[#00FF00] text-4xl font-black uppercase mb-12 text-center tracking-tighter">
+            <h2 className="text-[#FFA600] text-4xl font-black uppercase mb-12 text-center tracking-tighter">
               Education
             </h2>
             <div className="space-y-12">
               {educationData.map((item, index) => (
                 <div key={index} className="flex flex-col items-center text-center group">
-                  <FaBookOpen className="text-[#00FF00] text-4xl mb-4 group-hover:scale-110 transition-transform" />
+                  <FaBookOpen className="text-[#FFA600] text-4xl mb-4 group-hover:scale-110 transition-transform" />
                   <p className="text-gray-400 text-sm font-bold mb-1">{item.year}</p>
                   <h4 className="text-white font-black text-xl tracking-tight leading-tight uppercase">
                     {item.degree}
@@ -43,7 +43,7 @@ const Education = () => {
 
           {/* Right Side: Skills (Span 7) */}
           <div className="lg:col-span-7 pt-2">
-            <h2 className="text-[#00FF00] text-4xl font-black uppercase mb-10 tracking-tighter">
+            <h2 className="text-[#FFA600] text-4xl font-black uppercase mb-10 tracking-tighter">
               Skills
             </h2>
             <div className="space-y-6">
@@ -58,7 +58,7 @@ const Education = () => {
                   {/* Progress Bar Container */}
                   <div className="w-full bg-[#111121] h-10 rounded-md overflow-hidden p-1 border border-gray-800/50">
                     <div 
-                      className="bg-[#00FF00] h-full rounded-sm transition-all duration-1000 ease-in-out shadow-[0_0_15px_rgba(0,255,0,0.3)]" 
+                      className="bg-[#FFA600] h-full rounded-sm transition-all duration-1000 ease-in-out shadow-[0_0_15px_rgba(0,255,0,0.3)]" 
                       style={{ width: skill.value }}
                     ></div>
                   </div>

@@ -13,6 +13,7 @@ const roboto = Roboto({
 export const metadata = {
   title: "A K Biplob | Portfolio",
   description: "Full-stack Web Developer Portfolio of A K Biplob",
+
 };
 
 export default function RootLayout({ children }) {

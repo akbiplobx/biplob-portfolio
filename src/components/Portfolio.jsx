@@ -33,7 +33,7 @@ const Portfolio = () => {
         {/* Section Title */}
         <div className="text-center mb-16">
           <h2 className="text-4xl font-black uppercase tracking-tighter mb-2">PORTFOLIO</h2>
-          <p className="text-[#00FF00] font-bold text-lg">Cases</p>
+          <p className="text-[#FFA600] font-bold text-lg">Cases</p>
         </div>
 
         {/* Projects Grid */}
@@ -55,7 +55,7 @@ const Portfolio = () => {
 
               {/* Text Content */}
               <div className="text-center space-y-3">
-                <p className="text-[#00FF00] text-sm uppercase">
+                <p className="text-[#FFA600] text-sm uppercase">
                   {project.category}
                 </p>
                 <h3 className="text-xl font-black tracking-tight ">

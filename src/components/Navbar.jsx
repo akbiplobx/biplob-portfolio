@@ -25,22 +25,22 @@ const Navbar = () => {
         {/* Desktop Links - ইমেজের মতো ফন্ট এবং স্টাইল */}
         <ul className="hidden md:flex items-center gap-8 text-[13px] font-black uppercase tracking-wider text-white">
           <li>
-            <Link href="/" className="text-green-500 transition-colors">Home</Link>
+            <Link href="/" className="text-[#FFA600] transition-colors">Home</Link>
           </li>
           <li>
-            <Link href="/about" className="hover:text-green-500 transition-colors">About</Link>
+            <Link href="/about" className="hover:text-[#FFA600] transition-colors">About</Link>
           </li>
           <li>
-            <Link href="/portfolioall" className="hover:text-green-500 transition-colors">Portfolio</Link>
+            <Link href="/portfolioall" className="hover:text-[#FFA600] transition-colors">Portfolio</Link>
           </li>
           <li>
-            <Link href="/resume" className="hover:text-green-500 transition-colors">Resume</Link>
+            <Link href="/resume" className="hover:text-[#FFA600] transition-colors">Resume</Link>
           </li>
           <li>
-            <Link href="/ContactPage" className="hover:text-green-500 transition-colors">Contact</Link>
+            <Link href="/ContactPage" className="hover:text-[#FFA600] transition-colors">Contact</Link>
           </li>
           <li>
-            <Link href="https://akbiplob.com/wp-content/uploads/2025/11/A-K-Biplob-CV.pdf" target="_blank" className="hover:text-green-500 transition-colors">CV</Link>
+            <Link href="https://akbiplob.com/wp-content/uploads/2025/11/A-K-Biplob-CV.pdf" target="_blank" className="hover:text-[#FFA600] transition-colors">CV</Link>
           </li>
         </ul>
 
@@ -49,7 +49,7 @@ const Navbar = () => {
           <Link 
             href="https://wa.me/8801627205530" 
             target="_blank"
-            className="px-6 py-2 text-sm font-bold text-white bg-green-700 rounded rounded-r-sm hover:bg-green-600 transition-all flex items-center gap-2"
+            className="px-6 py-2 text-sm font-bold text-white bg-[#FFA600] rounded rounded-r-sm hover:bg-green-600 transition-all flex items-center gap-2"
           >
             Whatsapp
           </Link>
@@ -85,7 +85,7 @@ const Navbar = () => {
           <Link 
             href="https://wa.me/8801627205530" 
             target="_blank"
-            className="w-fit px-6 py-2 bg-green-700 text-white rounded-full text-center"
+            className="w-fit px-6 py-2 bg-[#FFA600] text-white rounded-full text-center"
           >
             Whatsapp
           </Link>

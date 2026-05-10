@@ -7,10 +7,10 @@ const ContactPage = () => {
         
         {/* WhatsApp Header */}
         <div className="flex flex-wrap justify-center items-center gap-3 mb-10">
-          <h2 className="text-[#00FF00] text-3xl md:text-4xl font-black uppercase tracking-tighter">
+          <h2 className="text-[#FFA600] text-3xl md:text-4xl font-black uppercase tracking-tighter">
             Contact With Whatsapp
           </h2>
-          <div className="flex items-center gap-2 text-[#00FF00] text-2xl md:text-3xl font-black">
+          <div className="flex items-center gap-2 text-[#FFA600] text-2xl md:text-3xl font-black">
             <span className="bg-green-600 p-1.5 rounded-full text-white text-xl">
               <i className="fab fa-whatsapp"></i>
             </span>
@@ -40,7 +40,7 @@ const ContactPage = () => {
               <input type="text" placeholder="Phone No" className="p-3 bg-white text-black rounded-sm outline-none font-bold text-sm" />
               <input type="email" placeholder="Email" className="p-3 bg-white text-black rounded-sm outline-none font-bold text-sm" />
               <textarea placeholder="Message" rows="3" className="p-3 bg-white text-black rounded-sm outline-none font-bold text-sm"></textarea>
-              <button className="py-3 bg-green-700 text-white font-black uppercase rounded-sm hover:bg-green-600 transition-all">
+              <button className="py-3 bg-[#FFA600] text-white font-black uppercase rounded-sm hover:bg-green-600 transition-all">
                 Send
               </button>
             </form>
