@@ -5,16 +5,16 @@ import { FaGithub, FaLinkedin, FaFacebook, FaWhatsapp, FaTwitter, FaYoutube, FaI
 
 const Hero = () => {
   const socialLinks = [
-    { icon: <FaGithub />, link: "#", color: "#333" },
-    { icon: <FaLinkedin />, link: "#", color: "#0077b5" },
-    { icon: <FaFacebook />, link: "#", color: "#4267B2" },
-    { icon: <FaTwitter />, link: "#", color: "#1DA1F2" },
-    { icon: <FaYoutube />, link: "#", color: "#FF0000" },
-    { icon: <FaInstagram />, link: "#", color: "#E4405F" },
-    { icon: <FaBehance />, link: "#", color: "#0057ff" },
-    { icon: <FaPinterest />, link: "#", color: "#E60023" },
-    { icon: <FaMedium />, link: "#", color: "#00ab6c" },
-  ];
+    { icon: <FaGithub />, link: "https://github.com/akbiplobx", color: "#333" },
+    { icon: <FaLinkedin />, link: "https://linkedin.com/in/akbiplobx", color: "#0077b5" },
+    { icon: <FaFacebook />, link: "https://facebook.com/akbiplobx", color: "#4267B2" },
+    { icon: <FaTwitter />, link: "https://twitter.com/akbiplobx", color: "#1DA1F2" },
+    { icon: <FaYoutube />, link: "https://youtube.com/@akbiplobx", color: "#FF0000" },
+    { icon: <FaInstagram />, link: "https://instagram.com/akbiplobx", color: "#E4405F" },
+    { icon: <FaBehance />, link: "https://behance.net/akbiplobx", color: "#0057ff" },
+    { icon: <FaPinterest />, link: "https://pinterest.com/akbiplobx", color: "#E60023" },
+    { icon: <FaMedium />, link: "https://medium.com/@akbiplobx", color: "#00ab6c" },
+];
 
   return (
     // এখানে আলাদা কোনো max-w বা px দেওয়ার দরকার নেই, কারণ layout.js এটি কন্ট্রোল করবে
@@ -45,7 +45,7 @@ const Hero = () => {
           <div className="pt-4">
             <Link 
               href="/ContactPage" 
-              className="px-12 py-4 text-sm font-black text-black bg-[#FFA600] rounded-full hover:bg-[#e69500] transition-all inline-block uppercase tracking-wider"
+              className="px-12 py-4 mb-4 text-sm font-black text-black bg-[#FFA600] rounded-full hover:bg-[#e69500] transition-all inline-block uppercase tracking-wider"
             >
               Contact
             </Link>
