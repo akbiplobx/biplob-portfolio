@@ -11,7 +11,7 @@ const About = () => {
         <div className="flex-1 flex justify-center relative">
           <div className="relative w-[300px] h-[300px] md:w-[400px] md:h-[400px]">
             {/* Background Decorative Shape (Image 12 এর মতো) */}
-                        
+            <div className="absolute inset-0 bg-gradient-to-tr from-orange-500 to-red-600 rounded-[3rem] rotate-6 opacity-80"></div>            
             {/* Actual Image */}
             <div className="relative z-10 w-full h-full overflow-hidden rounded-[2.5rem] border-4 border-[#161625]">
               <Image 
