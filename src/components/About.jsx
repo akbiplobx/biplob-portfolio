@@ -16,7 +16,7 @@ const About = () => {
             {/* Actual Image */}
             <div className="relative z-10 w-full h-full overflow-hidden rounded-[2.5rem] border-4 border-[#161625]">
               <Image 
-                src="/profile-ak.png" // public ফোল্ডারে আপনার ছবিটি রাখুন
+                src="/profile-red.png" // public ফোল্ডারে আপনার ছবিটি রাখুন
                 alt="A K Biplob"
                 fill
                 className="object-cover"
